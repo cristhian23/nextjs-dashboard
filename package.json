@@ -4,12 +4,13 @@
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start",
-    "seed": "node -r dotenv/config ./app/seed/seed.js"  },
+    "seed": "node -r dotenv/config ./app/seed/seed.js"
+  },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/forms": "^0.5.10",
     "autoprefixer": "10.4.20",
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
     "clsx": "^2.1.1",
     "dotenv": "^16.5.0",
     "next": "latest",
